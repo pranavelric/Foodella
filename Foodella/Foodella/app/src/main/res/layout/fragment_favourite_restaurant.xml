@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.FavouriteRestaurantFragment">
+
+
+    <RelativeLayout
+        android:id="@+id/favourite_restaurant_fragment_Progressdialog"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/whiteCardColor"
+        android:elevation="1dp"
+        android:visibility="invisible">
+
+        <ProgressBar
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerInParent="true"
+            android:indeterminateTint="@color/colorPrimary" />
+
+    </RelativeLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewFavouriteRestaurant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        />
+
+<LinearLayout
+    android:id="@+id/empty_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="3"
+    android:elevation="1dp"
+    android:gravity="center"
+    android:visibility="gone"
+    >
+    <ImageView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/empty_list"
+
+
+        />
+    <TextView
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Nothing added to favourites"
+        android:textColor="#194EDF"
+android:textSize="16sp"
+        />
+
+</LinearLayout>
+
+</RelativeLayout>
