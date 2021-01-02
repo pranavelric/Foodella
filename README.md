@@ -19,12 +19,7 @@ Functions:
 <li>✔️: Filtering Restaurants by price or rating.</li>
 <li>✔️:Login as a member</li>
 <li>✔️:View food menu</li>
-<li>✔️:
-Place food orders</li>
-<li>✔️: Get a list of similar movies</li>
-<li>✔️: Get movie recommendations</li>
-<li>✔️: No account creation required</li>
-<li>✔️:Browse movies by Genres,In Theaters, Trending, Top-rated, Trending and Upcoming.</li>
+<li>✔️:Place food orders</li>
 </ul>
 
 
